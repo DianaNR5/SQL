@@ -1,0 +1,16 @@
+SELECT*
+FROM superstore
+ORDER BY price DESC;
+
+--average price of item in superstore
+SELECT AVG (price)
+FROM superstore;
+
+--maximum price of item in kitchen supplies
+SELECT MAX (price)
+FROM superstore
+WHERE category="Kitchen Supplies";
+
+--what is the average rating of all items in superstore
+SELECT AVG (average_rating)
+FROM superstore;
